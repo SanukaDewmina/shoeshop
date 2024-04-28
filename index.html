@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="navstyle.css">
+  <link rel="stylesheet" href="gridstyle.css">
+  <link rel="stylesheet" href="banner.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script src="https://kit.fontawesome.com/3bd3df8ce1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+  <div class="main-content" id="maincontainer">
+    <nav class="nav-bar">
+      <section class="left">
+           <h1 id="nav-bar-logo-text" onclick="navdedactive();">ShoeX</h1> 
+      </section>
+      <section class="middle">
+        <ul>
+          <li><a href="#" onclick="navactive1();" >Home</a></li>
+          <li><a href="#" onclick="navactive2();">shop</a></li>
+          <li><a href="#" onclick="navactive3();">0ffer</a></li>
+          <li><a href="#" onclick="navactive4();">about</a></li>
+        </ul>
+      </section>
+      <section class="right">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-cart-shopping" onclick="navactive5();"></i>
+        <label id="cartnotifi"></label>
+
+      </section>
+   </nav>
+
+   <div class="navlist-home-extention" id="navlist-extentionbyid1">
+    <div class="nav-list-one"><h3>Adidas</h3></div>
+    <div class="nav-list-one"><h3>Nike</h3></div>
+    <div class="nav-list-one"><h3>Puma</h3></div>
+    <div class="nav-list-one"><h3>Reebook</h3></div>
+    <div class="nav-list-last"><h3>Clarks</h3></div>
+    
+   </div>
+
+   <div class="navlist-shop-extention" id="navlist-extentionbyid2">
+    <div class="nav-list-one">Colombo</div>
+    <div class="nav-list-one">Negambo</div>
+    <div class="nav-list-one">Kandy</div>
+    <div class="nav-list-last">Gall</div>
+   </div>
+
+   <div class="navlist-offer-extention" id="navlist-extentionbyid3">
+    <div class="nav-list-one"><h5>5% off for Nike shoes</h5></div>
+    <div class="nav-list-one"><h5>puma 20% off</h5></div>
+    <div class="nav-list-one"><h5>Rebook jaket for free</h5></div>
+    <div class="nav-list-last"><h5>10% off for clarck shoes</h5></div>
+   </div>
+
+   <div class="navlist-about-extention" id="navlist-extentionbyid4">
+    <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+      Culpa repellendus commodi nemo?</p>
+   </div>
+
+   <div class="nav-cart-data" id="navlist-extentionbyid5">
+     <div class="section-top">
+      <div></div>
+      <div></div>
+     </div>
+     <div class="section-bottom">
+      <div><label id="quentity">Quentity:</label></div>
+      <div><label id="cost">Tax amount:</label></div>
+      <div><label id="total">Total amount: </label></div>
+      <div><button id="resetbtn" onclick="resetaddcart();">Reset</button></div>
+      
+     </div>
+   </div>
+
+   <div class="banner">
+    <section class="banner-left">
+      <img src="grid-img/pngwing.com (1).png" alt="" class="baneer-big-img">
+    </section>
+    <section class="banner-right">
+      <h1 id="banner-title">Ultimate ShoeX Exprience</h1>
+      <h3 id="banner-sub-title-01">20% OFF</h3>
+      <h3 id="banner-sub-title-02">Purches your own shoes with shoeX.The Srilankan Largest Shoe company...</h3>
+    </section>
+   </div>
+  <!-- Display grid items -->
+   <div class="grid">
+    <div class="grid-item">
+      <div class="grid-items-section-1">
+        <div class="item-pic">
+          <img class="gridimg" src="grid-img/pngwing.com (1).png" alt="">
+         </div>
+      </div>
+      <div class="grid-items-section-2">
+        <div class="item-name">
+          <span class="grid-card-item-name">Voyago</span>
+        </div>
+         <div class="item-price">
+            <span class="grid-card-item-price">$45.00</span>
+         </div>
+         <div class="item-deatails">
+          <span class="grid-card-item-details">Lorem ipsum dolor sit amet.</span>
+         </div>
+         <div class="item-purches-btn">
+          <button class="grid-card-btn" id="addcartbtn">Add to Cart</button>
+         </div>
+      </div>
+       
+     
+    </div>
+    <div class="grid-item">
+      <div class="grid-items-section-1">
+        <div class="item-pic">
+          <img class="gridimg" src="grid-img/pngwing.com (2).png" alt="">
+         </div>
+      </div>
+      <div class="grid-items-section-2">
+        <div class="item-name">
+          <span class="grid-card-item-name">Voyago</span>
+        </div>
+         <div class="item-price">
+            <span class="grid-card-item-price">$45.00</span>
+         </div>
+         <div class="item-deatails">
+          <span class="grid-card-item-details">Lorem ipsum dolor sit amet.</span>
+         </div>
+         <div class="item-purches-btn">
+          <button class="grid-card-btn" id="addcartbtn">Add to Cart</button>
+         </div>
+      </div>
+       
+     
+    </div>
+    <div class="grid-item">
+      <div class="grid-items-section-1">
+        <div class="item-pic">
+          <img class="gridimg" src="grid-img/pngwing.com (3).png" alt="">
+         </div>
+      </div>
+      <div class="grid-items-section-2">
+        <div class="item-name">
+          <span class="grid-card-item-name">Voyago</span>
+        </div>
+         <div class="item-price">
+            <span class="grid-card-item-price">$45.00</span>
+         </div>
+         <div class="item-deatails">
+          <span class="grid-card-item-details">Lorem ipsum dolor sit amet.</span>
+         </div>
+         <div class="item-purches-btn">
+          <button class="grid-card-btn" id="addcartbtn">Add to Cart</button>
+         </div>
+      </div>
+       
+     
+    </div>
+    <div class="grid-item">
+      <div class="grid-items-section-1">
+        <div class="item-pic">
+          <img class="gridimg" src="grid-img/pngwing.com (4).png" alt="">
+         </div>
+      </div>
+      <div class="grid-items-section-2">
+        <div class="item-name">
+          <span class="grid-card-item-name">Voyago</span>
+        </div>
+         <div class="item-price">
+            <span class="grid-card-item-price">$45.00</span>
+         </div>
+         <div class="item-deatails">
+          <span class="grid-card-item-details">Lorem ipsum dolor sit amet.</span>
+         </div>
+         <div class="item-purches-btn">
+          <button class="grid-card-btn" id="addcartbtn">Add to Cart</button>
+         </div>
+      </div>
+       
+     
+    </div>
+    <div class="grid-item">
+      <div class="grid-items-section-1">
+        <div class="item-pic">
+          <img class="gridimg" src="grid-img/pngwing.com (5).png" alt="">
+         </div>
+      </div>
+      <div class="grid-items-section-2">
+        <div class="item-name">
+          <span class="grid-card-item-name">Voyago</span>
+        </div>
+         <div class="item-price">
+            <span class="grid-card-item-price">$45.00</span>
+         </div>
+         <div class="item-deatails">
+          <span class="grid-card-item-details">Lorem ipsum dolor sit amet.</span>
+         </div>
+         <div class="item-purches-btn">
+          <button class="grid-card-btn" id="addcartbtn">Add to Cart</button>
+         </div>
+      </div>
+       
+     
+    </div>
+    <div class="grid-item">
+      <div class="grid-items-section-1">
+        <div class="item-pic">
+          <img class="gridimg" src="grid-img/pngwing.com (6).png" alt="">
+         </div>
+      </div>
+      <div class="grid-items-section-2">
+        <div class="item-name">
+          <span class="grid-card-item-name">Voyago</span>
+        </div>
+         <div class="item-price">
+            <span class="grid-card-item-price">$45.00</span>
+         </div>
+         <div class="item-deatails">
+          <span class="grid-card-item-details">Lorem ipsum dolor sit amet.</span>
+         </div>
+         <div class="item-purches-btn">
+          <button class="grid-card-btn" id="addcartbtn">Add to Cart</button>
+         </div>
+      </div>
+       
+     
+    </div>
+    <div class="grid-item">
+      <div class="grid-items-section-1">
+        <div class="item-pic">
+          <img class="gridimg" src="grid-img/pngwing.com (7).png" alt="">
+         </div>
+      </div>
+      <div class="grid-items-section-2">
+        <div class="item-name">
+          <span class="grid-card-item-name">Voyago</span>
+        </div>
+         <div class="item-price">
+            <span class="grid-card-item-price">$45.00</span>
+         </div>
+         <div class="item-deatails">
+          <span class="grid-card-item-details">Lorem ipsum dolor sit amet.</span>
+         </div>
+         <div class="item-purches-btn">
+          <button class="grid-card-btn" id="addcartbtn">Add to Cart</button>
+         </div>
+      </div>
+       
+     
+    </div>
+    <div class="grid-item">
+      <div class="grid-items-section-1">
+        <div class="item-pic">
+          <img class="gridimg" src="grid-img/pngwing.com (8).png" alt="">
+         </div>
+      </div>
+      <div class="grid-items-section-2">
+        <div class="item-name">
+          <span class="grid-card-item-name">Voyago</span>
+        </div>
+         <div class="item-price">
+            <span class="grid-card-item-price">$45.00</span>
+         </div>
+         <div class="item-deatails">
+          <span class="grid-card-item-details">Lorem ipsum dolor sit amet.</span>
+         </div>
+         <div class="item-purches-btn">
+          <button class="grid-card-btn" id="addcartbtn">Add to Cart</button>
+         </div>
+      </div>
+       
+     
+    </div>
+   </div>
+
+
+  
+
+  </div>
+<script src="script.js"></script>  
+</body>
+</html>

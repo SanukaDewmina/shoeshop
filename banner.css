@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kdam+Thmor+Pro&family=Nanum+Gothic&family=Ojuju:wght@200..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Rajdhani:wght@300;400;500;600;700&family=Teko:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kdam+Thmor+Pro&family=Nanum+Gothic&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Rajdhani:wght@300;400;500;600;700&family=Teko:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kdam+Thmor+Pro&family=Nanum+Gothic&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300..700&family=Rajdhani:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Teko:wght@300..700&display=swap');
+
+
+
+
+
+
+.banner{
+  width: 100vw;
+  padding: 0 15px;
+  height: 100vh;
+  background-color: rgb(6, 93, 99);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.banner-left{
+  height: 100vh;
+  
+}
+
+.banner-right{
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+#banner-title{
+  color: white;
+  font-size: 5rem;
+  line-height: 1;
+  margin-bottom: 2px;
+  font-family: "Teko", sans-serif;
+
+
+}
+#banner-sub-title-01{
+  color: rgb(255, 251, 4);
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+#banner-sub-title-02{
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.2rem;
+}
